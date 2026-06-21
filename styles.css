@@ -670,14 +670,15 @@ section {
   transform: scale(1.05);
 }
 
-.large-image-card {
+.image-card img {
 
-  height: 620px;
-}
+    width: 100%;
 
-.about-main-image {
+    height: auto;
 
-  height: 620px;
+    display: block;
+
+    object-fit: unset;
 }
 
 /* =========================
@@ -970,9 +971,9 @@ section {
   }
 
   .large-image-card,
-  .about-main-image {
-    height: 430px;
-  }
+.about-main-image {
+  height: auto;
+}
 
   .contact-box {
     padding: 38px 24px;
@@ -1012,10 +1013,10 @@ section {
     font-size: 1.6rem;
   }
 
-  .large-image-card,
-  .about-main-image {
-    height: 360px;
-  }
+ .large-image-card,
+.about-main-image {
+  height: auto;
+}
 
 }
 
